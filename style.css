@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 .resume-contents {
@@ -17,13 +17,13 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color: #5c5470;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
+    background-color: #2a2438;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -38,12 +38,13 @@
 
 .profile .profile-image {
     width: 100%;
-    border-radius: 100%;
-}
+    border-radius: 50%;
+    border: 8px solid #352f44;
+ }
 
 .name {
     color: #D6DBDF;
-    font-size: 30px;
+    font-size: 22px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -62,7 +63,7 @@
 }
 
 .contact-info ul {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 .contact-info ul li,
